@@ -1,7 +1,6 @@
 module Dialog exposing (alert, confirm, prompt)
 
-{-| This library fills a bunch of important niches in Elm. A `Maybe` can help
-you with optional arguments, error handling, and records with optional fields.
+{-| Task interfaces for native dialog functions
 
 @docs alert, confirm, prompt
 
