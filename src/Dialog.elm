@@ -27,6 +27,6 @@ confirm =
 {-| Display the given message and ask for the user's input. The first argument
 is the message and the second argument is the default input value.
 -}
-prompt : String -> String -> Task x String
+prompt : String -> String -> Task x (Maybe String)
 prompt =
     Native.Dialog.prompt
