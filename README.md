@@ -1,0 +1,1 @@
+This library provides task interfaces for the native dialog functions `alert`, `confirm`, and `prompt`, allowing you to use these functions without having to use ports.

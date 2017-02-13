@@ -1,6 +1,6 @@
 {
     "version": "1.0.0",
-    "summary": "Native bindings for alert, confirm, and prompt",
+    "summary": "Task interfaces for native dialog functions",
     "repository": "https://github.com/fbonetti/elm-dialog.git",
     "license": "BSD3",
     "source-directories": [
