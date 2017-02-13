@@ -10,7 +10,7 @@ import Task exposing (Task)
 import Native.Dialog
 
 
-{-| Display a given message
+{-| Display the given message
 -}
 alert : String -> Task x ()
 alert =
