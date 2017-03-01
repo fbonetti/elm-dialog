@@ -10,14 +10,14 @@ import Task exposing (Task)
 import Native.Dialog
 
 
-{-| Display the given message
+{-| Display the given message.
 -}
 alert : String -> Task x ()
 alert =
     Native.Dialog.alert
 
 
-{-| Display the given message and ask for confirmation
+{-| Display the given message and ask for confirmation.
 -}
 confirm : String -> Task x Bool
 confirm =
@@ -25,7 +25,8 @@ confirm =
 
 
 {-| Display the given message and ask for the user's input. The first argument
-is the message and the second argument is the default input value.
+is the message and the second argument is the default input value. Returns
+`Nothing` if the user clicks "cancel".
 -}
 prompt : String -> String -> Task x (Maybe String)
 prompt =
